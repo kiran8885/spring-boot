@@ -52,7 +52,7 @@ env:
 permissions:
   contents: read
 
-  
+  Deploy:
 
     name: Deploy
     runs-on: ubuntu-latest
