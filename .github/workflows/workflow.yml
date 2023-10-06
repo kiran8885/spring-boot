@@ -52,11 +52,10 @@ env:
 permissions:
   contents: read
 
-jobs:
-  deploy:
+  deploy: 
+
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
     - name: Checkout
